@@ -1,0 +1,74 @@
+@use "./variables" as *; 
+
+// ==================================
+// ++++++++++++++Main1+++++++++++++++
+// ==================================
+
+
+.mainOne{
+    background-color: $secondaryBg;
+    // height: 100vh;
+
+    ul{
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: right;
+        padding-top: 90px;
+    
+    
+    
+    li{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 10px 100px 0 10px;
+        
+        .faTitle{
+            display: flex;
+            position: relative;
+            margin-bottom: -40px;
+
+            span,i{
+                position: absolute;
+                top: 10px;
+                left: -50px;
+                
+                .fa-stack{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+}}
+
+// ===================================
+// ++++++++++++Main2++++++++++++++++++
+// ===================================
+
+.mainTwo{
+    background-color: $primaryBg;
+    
+        .contentContainerOne{
+            display: flex;
+            flex-direction: row;
+            padding-top: 50px;
+    
+
+            img{
+                box-shadow: $highlightColor 20px 20px;
+                position: relative;
+                
+            }
+
+            div{
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                padding-left: 160px;
+            }
+        }
+        
+}
